@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formiga de Langton</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>FORMIGA DE LANGTON</h1>
+    <canvas id="cv"></canvas>
+
+    <div id="controls">
+      <button id="play" class="primary">Iniciar</button>
+      <button id="reset">Reiniciar</button>
+      <label
+        >Velocidade
+        <input type="range" id="speed" min="1" max="5000" value="20" step="1" />
+        <span id="speedVal">20</span>
+      </label>
+      <span id="stats">passos: 0</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
